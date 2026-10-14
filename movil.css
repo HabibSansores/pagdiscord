@@ -1,0 +1,192 @@
+@media (max-width: 480px) {
+  .ancho {
+    padding: 0 16px;
+    width: 100%;
+  }
+
+  .header_principal {
+    padding: 20px 0;
+  }
+
+  .contenedor_navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header_principal .logo_discord {
+    height: 70px;
+    width: auto;
+  }
+
+  .navegacion_principal {
+    display: none;
+  }
+
+  .btn_login {
+    display: none;
+  }
+
+  .boton_hamburguesa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-texto-blanco);
+    font-size: 32px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .seccion_hero {
+    padding: 24px 0 44px 0;
+  }
+
+  .contenedor_hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .contenido_hero {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .titulo_principal {
+    font-size: 34px;
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+
+  .descripcion_hero {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .bloque_cta_hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .btn_descarga_mac {
+    font-size: 14px;
+    padding: 12px 22px;
+    white-space: nowrap;
+  }
+
+  .version_so {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .columna_laptop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .laptop_hero {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+  }
+
+  .zona_plataformas {
+    padding: 40px 0 50px 0;
+  }
+
+  .camp_dispositivos {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .tarjeta_dispositivo {
+    width: 100%;
+    height: 480px;
+    padding: 32px 18px 0 18px;
+    border-radius: 16px;
+  }
+
+  .nombre_plataforma {
+    font-size: 26px;
+  }
+
+  .btn_descarga_tarjeta {
+    font-size: 13px;
+    padding: 10px 24px;
+  }
+
+  .mockup_ios .imagen_mockup {
+    width: 270px;
+    margin-bottom: -115px;
+  }
+
+  .mockup_android .imagen_mockup {
+    width: 270px;
+    margin-bottom: -125px;
+  }
+
+  .mockup_linux .imagen_mockup {
+    width: 300px;
+    margin-bottom: 16px;
+  }
+
+  .mockup_windows .imagen_mockup {
+    width: 330px;
+    margin-bottom: 16px;
+  }
+
+  .banner_experimental {
+    padding: 30px 20px;
+    border-radius: 16px;
+  }
+
+  .titulo_experimental {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .descripcion_experimental {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .btn_descarga_experimental {
+    font-size: 13px;
+    padding: 10px 22px;
+  }
+
+  .columnas_superiores_pie {
+    display: none;
+  }
+
+  .pie_pagina {
+    padding: 24px 0 32px 0;
+  }
+
+  .barra_inferior_pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    border-top: 1px solid var(--color-borde-divisor);
+  }
+
+  .logo_discord {
+    height: 28px;
+  }
+
+  .btn_signup {
+    padding: 8px 18px;
+    font-size: 13px;
+  }
+}
